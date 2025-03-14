@@ -7,21 +7,21 @@
   <link rel="stylesheet" href="output.css">
 </head>
 <body>
-  <div class="grid grid-cols-[1.5fr_2fr] w-full h-28">
-    <div class="relative bg-[#F4C2C2] flex items-center">
-        <div class="relative flex items-center">
-          <img class="object-cover w-[110px] h-[110px] ml-20" src="images/fcLogo.png" alt="faceCard_Logo">
+  <div class="grid grid-cols-1 md:grid-cols-[1.5fr_2fr]">
+    <div class="relative bg-[#F4C2C2] flex flex-col md:flex-row items-center p-4 md:p-0">
+        <div class="flex items-center">
+          <img class="object-cover w-[80px] md:w-[110px] ml-5 md:ml-20" src="images/fcLogo.png" alt="faceCard_Logo">
         </div>
-        <div>
-          <a href="" target="_parent">
-            <h1 class="flex ml-20 text-black font-bold italic text-4xl font-elegant">
+        <div class="mt-2 md:mt-0">
+          <a href="#" target="_parent">
+            <h1 class="ml-2 text-2xl italic font-bold text-black md:text-4xl font-elegant md:ml-5">
               Facecard
             </h1>
           </a>
         </div>
     </div>
-    <div class="bg-[#F4C2C2] flex items-center gap-4 font-bold text-white">
-      <a href="" target="_blank" class="btn-outline flex bg-blue-300 w-28  items-center justify-center h-10 rounded-3xl ">Downloads</a>
+    <div class="bg-[#F4C2C2] flex flex-wrap justify-center md:justify-start items-center gap-2 md:gap-4 font-bold text-white p-3">
+      <a href="" target="_blank" class="flex items-center justify-center h-10 text-center bg-blue-900 w-28 rounded-3xl">Downloads</a>
       <a href="" target="_blank" class="inline-block ml-5">Features</a>
       <a href="" target="_blank" class="inline-block ml-10">Services</a>
       <a href="" target="_blank" class="inline-block ml-10">About Us</a>
@@ -31,24 +31,25 @@
       <a href="" target="_blank" class="inline-block ml-10">Contacts</a>
     </div>
   </div>
-  <div class="grid grid-cols-2 h-[700px]">
-    <div class=" bg-white flex items-center">
-      <img class="object-cover w-[50%] ml-56 items-center"
+  
+  <div class="grid grid-cols-1 lg:grid-cols-2 h-auto lg:h-[700px] p-5 md:p-10">
+    <div class="flex items-center justify-center bg-white">
+      <img class="w-[80%] md:w-[60%] lg:w-[50%] object-cover"
       src="images/facecard_app.png" alt="facecard_app">
     </div>
-    <div class="relative grid grid-rows-3">
-      <div class="relative top-52">
-        <h1 class="text-6xl text-blue-950 font-bold ml-5">
+    <div class="relative grid items-center grid-rows-3 text-center lg:text-left">
+      <div>
+        <h1 class="text-3xl font-bold sm:text-4xl md:text-5xl lg:text-6xl text-blue-950">
             Never let your <br><span class="text-[#F4C2C2]">FaceCard</span> decline.
         </h1>
       </div>
-      <div class="relative top-36">
-        <button class="bg-blue-900 ml-5 h-10 w-40 text-white font-medium rounded-3xl">
+      <div>
+        <button class="w-32 h-10 mt-5 font-medium text-white bg-blue-900 sm:w-40 rounded-3xl lg:mt-0">
           Download Now!
         </button>
       </div>
-      <div class="relative">
-        <img class="ml-5" src="images/Download.png" alt="facecard_download_link">
+      <div>
+        <img class="w-3/4 mx-auto md:w-1/2 lg:mx-0" src="images/Download.png" alt="facecard_download_link">
       </div>
     </div>
   </div>
