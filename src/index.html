@@ -3,12 +3,54 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>FaceCard</title>
   <link rel="stylesheet" href="output.css">
 </head>
 <body>
-  <audio controls autoplay loop>
-    <source src="audio_files/Multo - Cup of Joe (Official Lyric Video).mp3">
-  </audio>
+  <div class="grid grid-cols-[1.5fr_2fr] w-full h-28">
+    <div class="relative bg-[#F4C2C2] flex items-center">
+        <div class="relative flex items-center">
+          <img class="object-cover w-[110px] h-[110px] ml-20" src="images/fcLogo.png" alt="faceCard_Logo">
+        </div>
+        <div>
+          <a href="" target="_parent">
+            <h1 class="flex ml-20 text-black font-bold italic text-4xl font-elegant">
+              Facecard
+            </h1>
+          </a>
+        </div>
+    </div>
+    <div class="bg-[#F4C2C2] flex items-center gap-4 font-bold text-white">
+      <a href="" target="_blank" class="btn-outline flex bg-blue-300 w-28  items-center justify-center h-10 rounded-3xl ">Downloads</a>
+      <a href="" target="_blank" class="inline-block ml-5">Features</a>
+      <a href="" target="_blank" class="inline-block ml-10">Services</a>
+      <a href="" target="_blank" class="inline-block ml-10">About Us</a>
+      <a href="" target="_blank" class="inline-block ml-10">Partnerships</a>
+      <a href="" target="_blank" class="inline-block ml-10">FAQ</a>
+      <a href="" target="_blank" class="inline-block ml-10">Feedback</a>
+      <a href="" target="_blank" class="inline-block ml-10">Contacts</a>
+    </div>
+  </div>
+  <div class="grid grid-cols-2 h-[700px]">
+    <div class=" bg-white flex items-center">
+      <img class="object-cover w-[50%] ml-56 items-center"
+      src="images/facecard_app.png" alt="facecard_app">
+    </div>
+    <div class="relative grid grid-rows-3">
+      <div class="relative top-52">
+        <h1 class="text-6xl text-blue-950 font-bold ml-5">
+            Never let your <br><span class="text-[#F4C2C2]">FaceCard</span> decline.
+        </h1>
+      </div>
+      <div class="relative top-36">
+        <button class="bg-blue-900 ml-5 h-10 w-40 text-white font-medium rounded-3xl">
+          Download Now!
+        </button>
+      </div>
+      <div class="relative">
+        <img class="ml-5" src="images/Download.png" alt="facecard_download_link">
+      </div>
+    </div>
+  </div>
 </body>
 </html>
