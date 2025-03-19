@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>FaceCard</title>
-  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="/dist/output.css">
 </head>
 <body>
   <!-- PRODUCT START -->
@@ -215,8 +215,40 @@
   </section>
 
   <!-- PARTNERSHIPS END -->
-  <!-- FQA START -->
 
+  <!-- FQA daisyUi -->
+  <section class="p-2 md:p-4 lg:p-6">
+  <div class="flex justify-center p-4 my-4">
+    <h1 class="text-2xl font-bold md:text-3xl lg:text-4xl">
+      Frequently Asked Questions
+    </h1>
+  </div>
+  <div class="border collapse collapse-arrow bg-base-100 border-base-300">
+    <input type="radio" name="my-accordion-2" checked="checked" />
+    <div class="font-semibold collapse-title">How do I create an account?</div>
+    <div class="text-sm collapse-content">Click the "Sign Up" button in the top right corner and follow the registration process.</div>
+  </div>
+  <div class="border collapse collapse-arrow bg-base-100 border-base-300">
+    <input type="radio" name="my-accordion-2" />
+    <div class="font-semibold collapse-title">I forgot my password. What should I do?</div>
+    <div class="text-sm collapse-content">Click on "Forgot Password" on the login page and follow the instructions sent to your email.</div>
+  </div>
+  <div class="border collapse collapse-arrow bg-base-100 border-base-300">
+    <input type="radio" name="my-accordion-2" />
+    <div class="font-semibold collapse-title">How do I update my profile information?</div>
+    <div class="text-sm collapse-content">Go to "My Account" settings and select "Edit Profile" to make changes.</div>
+  </div>
+  <div class="border collapse collapse-arrow bg-base-100 border-base-300">
+    <input type="radio" name="my-accordion-2" />
+    <div class="font-semibold collapse-title">Is the app free?</div>
+    <div class="text-sm collapse-content">The app is free to use for the users but there is a premium membership that grants access to additional services and features.</div>
+  </div>
+  </section>
+
+  <!-- FQA daisyUi -->
+   
+  <!-- FQA START -->
+<!-- Hard-Coded FQA
   <section class="p-2 md:p-4 lg:p-10">
     <div class="grid grid-cols-1 lg:grid-cols-[1fr_2fr]">
       <div class="relative flex justify-center p-4 lg:justify-start lg:top-5">
@@ -267,16 +299,47 @@
         </div>
       </div>
     </div>
-    
-    <button class="btn btn-neutral">Neutral</button>
-    <button class="btn btn-primary">Primary</button>
-    <button class="btn btn-secondary">Secondary</button>
-    <button class="btn btn-accent">Accent</button>
-    <button class="btn btn-info">Info</button>
-    <button class="btn btn-success">Success</button>
-    <button class="btn btn-warning">Warning</button>
-    <button class="btn btn-error">Error</button>
-    
   </section>
+-->
+  <!-- FQA END -->
+  
+  <!-- FOOTER START-->
+  <footer class="p-10 footer sm:footer-horizontal bg-[#F4C2C2] text-base-content">
+    <aside>
+      <img class="w-[120px]" src="images/fcLogo.png" alt="">
+      <p>
+        FaceCard: Skincare Tracker
+        <br />
+        FaceCard never declines
+      </p>
+    </aside>
+    <nav>
+      <h6 class="footer-title">Services</h6>
+      <a class="link link-hover">Professional Consultation</a>
+      <a class="link link-hover">Skin Progress Tracker</a>
+      <a class="link link-hover">Personal Skincare Recommendation</a>
+      <a class="link link-hover"></a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Company</h6>
+      <a class="link link-hover">About us</a>
+      <a class="link link-hover">Who we are</a>
+      <a class="link link-hover">Mission & Vision</a>
+      <a class="link link-hover">Contact Us</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Legal</h6>
+      <a class="link link-hover">Terms of use</a>
+      <a class="link link-hover">Privacy policy</a>
+      <a class="link link-hover">Cookie policy</a>
+    </nav>
+  </footer>
+
+  <footer class="footer sm:footer-horizontal footer-center bg-[#F4C2C2] text-base-content p-4">
+    <aside>
+      <p>Copyright © 2025 - All right reserved by FaceCard: Skincare Tracker</p>
+    </aside>
+  </footer>
+  <!-- FOOTER END -->
 </body>
 </html>
